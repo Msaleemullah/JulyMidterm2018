@@ -4,25 +4,55 @@ What is programing language?
 A. its a computer language that helps computer to run on it.
 What jdk contains or composed of and define each components?
 What is IDE?
-A.
+A.An IDE stands Integrated Development Environment is a software suite that consolidates the
+basic tools developers need to write and test software. Typically, an IDE contains a code editor, a
+compiler or interpreter and a debugger that the developer accesses through a single graphical user
+ interface (GUI).
 What are the IDEs available in the market to support java?
+A.Eclipse, Intellij Idea, NetBeans, AndroidStudio, Enide Studio 2014, BlueJ, jEdit,
+ jGRASP, JSource, JDeveloper, DrJava etc.
 Explain the entire java life cycle.
+A.Programmer use any text editor to create high level Java text file.This file is saved as a
+ .java file on the disk.Then compile this text file using the Java compiler, which result
+ in a .classfile being created on the disk. The .class file contains the bytecodes.
+  The file is then loaded into memory by the class loader. The bytecode verifier confirms that
+  the bytecodes are valid and not hostile. Finally, the JVM reads the bytecodes in memory and
+  translates them into machine code
 what is class?
+A. Class is a blueprint from which individual objects are created
 What is object?
+A. : Object is an instance of the class and Object is the physical reality
 What is the entry point of an application?
+A.Main method is the entry point of an application.
 Why main is static?
+A.In order to call a method need to have a object of that method. As main method
+ is gateway to the java application JVM need to enter into main method in order
+ to execute. Static key word let JVM to call main method without  object.
 Which class is the superclass of all classes?
 What is difference between path and classpath variables?
 What is the difference between an Interface and Abstract class?
 Can you make an Object from an Interface and Abstract class ? if not how do you use it ?
+A. we can't make an object from Interface and abstract class, if we want to create an object it
+must need to be created in concrete class.
 what is Access Specifier?
+A.Access specifiers for classes or interfaces in Java.
 What is OOP ? Define each feature of java OOP.
+it is an object oriented programming.
+A.polymorphism:when a parent class reference is used to refer to a child class object
+abstraction:Abstraction is a process of hiding the implementation details from the user.
+inheritance:It is the mechanism in java by which one class is allow to inherit the features(fields and methods) of another class.
+encapsulation:Encapsulation is the process of hiding information details and protecting data and behavior of an object from misuse by other objects.
 What is Java Package and which package is imported by default?
+A.java.lang package is imported by default, no need to explicitly import it. Classes in the java.lang package do not need to be imported (the compiler acts like they are always imported).
 What is API? Name list of API that you have used so far.
+A.Java application programming interface (API) is a list of all classes that are part of the Java development kit (JDK). It includes all Java packages, classes, and interfaces, along with their methods, fields, and constructors.
 Does java support multiple inheritance, explain why or why not?
+A.A class can implement any number of interfaces but can extend only one class.
 What is method overloading and when it happens?
-Explain exceptions in java and how to handle it.
+A.This is different from method overloading. Method overloading happens with methods with the same name but different signature.
 What is static keyword in java? How it has been used in variables and methods ?
+A.We can apply java static keyword with variables, methods, blocks and nested class.
+Ststic keyword is used to access the methods wihtout creating the object.
 What is final and how it has been used variables and methods?
 What is final, finally and finalize?
 What is a constructor ?
@@ -38,16 +68,27 @@ What version of java are you using?
 What is JAR stand for ?
 What is the difference between JDK and JVM?
 What is the difference between JVM and JRE?
+A.JRE is an acronym for Java Runtime Environment.It is used to provide runtime environment.It is the implementation of JVM
 What is compile time and run time?
 What is heap?
+A.The heap is the runtime data area from which memory for all class instances and arrays is allocated.
 How java manage it's memory?
+A.it is saved automatically Generally, memory is divided into two big parts: the stack and the heap.
 What is the difference between String, StringBuffer and StringBuilder?
+A. The difference between String and StringBuffer/StringBuilder in java is that String object is immutable whereas StringBuffer/StringBuilder objects are mutable
 What is Singleton class?
+A. It is an private constructor. used for to restrict one single object.
 What is Serialization and Deserialization?
+A. The serialization is a process of converting an object into a sequence of bytes which can persisted to a disk or through streams.
+Deserialization is the reverse of serialization.
 when to use transient variable in java?
+Transient varibales is used to not to serilaized.
 Difference between while and do..while loop?
+A.The difference between these two loops is that, in while loops, test expression is checked at first but, in do...while loop code is executed at first then the condition is checked.
 What is Enum?
+A Java Enum is a special Java type used to define collections of constants.
 What is Iterator?
+A. Its is an process when codes have to be read line by line.
 Which one will take more memory, an int or Integer?
 Why is String Immutable in Java?
 What is constructor chaining in Java?

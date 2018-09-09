@@ -1,9 +1,10 @@
 Please answer the below core-java Questions:
 
 What is programing language?
-A.
+A. its a computer language that helps computer to run on it.
 What jdk contains or composed of and define each components?
 What is IDE?
+A.
 What are the IDEs available in the market to support java?
 Explain the entire java life cycle.
 what is class?
@@ -25,7 +26,9 @@ What is static keyword in java? How it has been used in variables and methods ?
 What is final and how it has been used variables and methods?
 What is final, finally and finalize?
 What is a constructor ?
+Constructor is used to initialized the object.
 Can we have multiple constructors in a class?
+yes, we can have multiplr constructors.
 If we don't have a constructor declared, what is called during the object creation?
 What is "this" keyword in java ?
 What is "super" keyword in java? How many possible way can you use?
@@ -35,12 +38,19 @@ What version of java are you using?
 What is JAR stand for ?
 What is the difference between JDK and JVM?
 What is the difference between JVM and JRE?
+A.JRE is an acronym for Java Runtime Environment.It is used to provide runtime environment.It is the implementation of JVM
 What is compile time and run time?
 What is heap?
+A.The heap is the runtime data area from which memory for all class instances and arrays is allocated.
 How java manage it's memory?
+A.it is saved automatically Generally, memory is divided into two big parts: the stack and the heap.
 What is the difference between String, StringBuffer and StringBuilder?
+A. The difference between String and StringBuffer/StringBuilder in java is that String object is immutable whereas StringBuffer/StringBuilder objects are mutable
 What is Singleton class?
+A. It is an private constructor. used for to restrict one single object.
 What is Serialization and Deserialization?
+A. The serialization is a process of converting an object into a sequence of bytes which can persisted to a disk or through streams.
+Deserialization is the reverse of serialization.
 when to use transient variable in java?
 Difference between while and do..while loop?
 What is Enum?
