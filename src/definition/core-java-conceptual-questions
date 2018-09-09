@@ -1,9 +1,10 @@
 Please answer the below core-java Questions:
 
 What is programing language?
-A.
+A. its a computer language that helps computer to run on it.
 What jdk contains or composed of and define each components?
 What is IDE?
+A.
 What are the IDEs available in the market to support java?
 Explain the entire java life cycle.
 what is class?
@@ -25,7 +26,9 @@ What is static keyword in java? How it has been used in variables and methods ?
 What is final and how it has been used variables and methods?
 What is final, finally and finalize?
 What is a constructor ?
+Constructor is used to initialized the object.
 Can we have multiple constructors in a class?
+yes, we can have multiplr constructors.
 If we don't have a constructor declared, what is called during the object creation?
 What is "this" keyword in java ?
 What is "super" keyword in java? How many possible way can you use?
