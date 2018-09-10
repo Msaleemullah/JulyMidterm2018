@@ -1,6 +1,6 @@
 package datastructure;
 
-import com.sun.javafx.collections.MappingChange;
+/*import com.sun.javafx.collections.MappingChange;
 
 import java.util.*;
 
@@ -15,7 +15,7 @@ public class UseMap {
 		 * Use any databases[MongoDB, Oracle, MySql] to store data and retrieve data.
 		 */
 
-		List<String> contriesOfAsia = new LinkedList<>();
+	/*	List<String> contriesOfAsia = new LinkedList<>();
 		contriesOfAsia.add("Turkey");
 		contriesOfAsia.add("China");
 		contriesOfAsia.add("Pakistan");
@@ -39,9 +39,10 @@ public class UseMap {
 		listOfcontinentalNcountries.put("Africa", contriesOfAfrica);
 		listOfcontinentalNcountries.put("Europe", contriesOfEurope);
 
-		for(Map.Entry<String, List<String>> state:listOfcontinentalNcountries.entrySet(){
-			System.out.println(state.getKey() + "--->" + state.getValue());
+		for(Map.Entry<String, List<String>> state:listOfcontinentalNcountries.entrySet() ){
+			System.out.println(state.getKey() + "-->" + state.getKey());
+
 		}
 	}
 
-}
+}*/
