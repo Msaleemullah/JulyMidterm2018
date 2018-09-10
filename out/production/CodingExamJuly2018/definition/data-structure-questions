@@ -1,32 +1,104 @@
 Please answer the below Data Structure Questions:
 
 why do we need data structure?
-A.
+A. Data structure is a collection of data values, the relationships among them, and the functions or operations that can be applied to the data.
 What are the various operations that can be performed on different Data Structures?
 List out the areas in which data structures are applied extensively?
 what is an Array?
+A:An array, in the context of Java, is a dynamically-created object that serves as a container to hold constant number of values of the same type.
 what is the difference between the Array and ArrayList?
+A: ArrayList has a set of methods to access elements and modify them. Array is a fixed size data structure while ArrayList is not
 what is LinkedList?
+A:A linked list is a linear data structure, in which the elements are not stored at contiguous memory locations.
 How is an Array different from Linked List?
+a:In array, each element is independent and can be accessed using it's index value. In case of a linked list, each node/element points to the next, previous, or maybe both nodes.
 what is queue?
+A:The poll() method is used to retrieve and remove the head of this queue, or returns null if this queue is empty.
 what is stack?
+A: Stack is an area of memory that holds all local variables and parameters used by any function and remembers the order in which functions are called so that function returns occur correctly
 what is FIFO and LIFO?
+A: FIFO (first iin first out) is used in queue and and LIFO (las in first out) is used in stack
 what is the order of complexity?
+A:For input is of size N, we can say that the algorithm will finish at O(1), O(N), O(N^2), O(N^3), O(N*log(N))
 what is the best case to search an element from an array?
+A:Best case - you find it (assuming you only need to find one) on the first comparison.
 what is the worst case to search an element from an array?
+A:Assuming there are no duplicates for the expected value and it is the last
 what is tree in data structure?
+A: A tree is a widely used abstract data a type or data structure implementing abstract data type. It is a hierarchical tree structure, which has root value
+                                                                               and subtrees pf children with parent node, represented as a set of linked notes.
 what is graph in data structure?
+A:A graph is pictorial representation of a set of objects where some pairs of objects are
+  connected by link. The interconnected objects are represented by points termed as
+  vertices are called edges.
 what is the difference between the HashTable and HashMap?
+A:1. HashMap is non-synchronized. This means if it’s used in multithread
+  environment then more than one thread can access and process the HashMap simultaneously.
+     Hashtable is synchronized. It ensures that no more than one thread can access
+  the Hashtable at a given moment of time.
+  2. HashMap allows one null key and any numbers of null values.
+      HashTable doesn't allow null key and null values.
+  3. HashMap implementation LinkedHashMap maintain the insertion order and
+  tree map sorts the mapping based on the ascending order of keys.
 What are the major data structures used in the following areas : RDBMS, Network data model and Hierarchical data model.
+A:The major data structures used are as follows:
+  1. RDBMS - Array
+  2. Network data model - Graph
+  3. Hierarchical data model - Trees
 How HashMap works in java?
+A:A HashMap element has key and value in Java, elements are stored against
+  a key. Map Interface implemented on HashMap in Java Collection Framework.
+  elements manipulation is easy on the basis of key of the value.
 What is ArrayIndexOutOfBoundsException in java? When it occurs?
+A:It is a class in Java API, which extends IndexOutOfBoundException.
+  IndexOutOfBoundsException occur when an array has been accessed with an illegal index.
+  Index either negative or greater than or equal to the size of the array.
+
 What are the different ways of copying an array into another array?
+A:There are mainly four different ways to copy all elements of one
+  array into another array in Java.
+  1. Manually, 2. Arrays.copyOf() 3. System.arraycopy() 4. Object.clone()
+  1. Manually: Copy elements one by one.
+  2. Arrays.copyOf(): We can directly copy one array to another by using
+  Arrays.copyOf() method.
+  3. System.arraycopy(): Using this method.
+  4. Object.clone(): We can also use clone() method to make a copy of array.
+
 What is difference between an array and a linked list?
+A:1. An array element is having index number, but a node is having reference to next node.
+          2. In array each element is independent, does not have any connection to the other element
+           on the other hand in linked list each node are connected by previous node.
+          3. In Linked list, location or address of elements is stored in the link part of previous
+           element/node. In array, no pointers are used like linked list so no need of extra space
+           in memory for pointer.
+          4. Linked list consumed extra memory as the link location need to be saved in in the linked
+          part of the previous elements in case of array it is not required.
 What is DFS and BFS?
+A:Depth-first search (DFS) is an algorithm for traversing or searching tree or graph data structure
+         This one starts at the root and explores as far as possible along each branch before backtracking.
+         Breath-first search (BFS) is an algorithm for traversing or searching tree or graph data structure.
+         It starts at the tree roots and explores the neighbour nodes first before visiting to the next level of
+         neighbours.
 What is Recursion?
+A:When a method calls himself inside the method is called recursion. The method which causes recursion is called
+  recursive method.
+
 What are linear and non linear data Structures?
+A:Linear data structure: 1. Array, 2. Stack, 3. Queue, 4. LinkedList
+          Non-Linear data structure: 1. Trees 2. Graphs
 What is Big-(O)-notation?
+A: Big O notations is describes the performance or complexity of an algorithm.
 Outlined different kind of sorting algorithm with time complexity?
+A:Bubble sort: It is a comparison algorithm. It works by repeatedly stepping
+  through the list to be sorted, comparing each pair of adjacent items and swapping them
+  if they are in the wrong order. The pass through the list is repeated until no swaps are
+  needed, which indicates that the list is sorted.
+  Worst case performance: O(n2)
+  Best case performance: O(n)
+  Average case performance: O(n2)
+  Worst case space complexity: O(n) total, O(1) auxiliary
+  Bubble sort is not a practical sorting algorithm when n is large.
+
 
 Draw a table with time complexity in which it will summarize all the data structure feature's advantages and disadvantages.
   a)In terms of Accessing element.

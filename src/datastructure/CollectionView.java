@@ -3,7 +3,7 @@ package datastructure;
 import java.util.Collection;
 import java.util.HashMap;
 
-public class CollectionView {
+public class     CollectionView {
 
 public static void main(String[] args) {
         /*
